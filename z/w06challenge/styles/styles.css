@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-template-rows: 300px 300px;
+    justify-content: start;
+}
+
+main img {
+    width: 600px;
+    height: 600px;
+}
+
+.cherry {
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+}
+
+.gray {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+h1 {
+    font-size: 140px;
+    width: 1200px;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    align-self: center;
+}
+
+h2 {
+    font-size: 90px;
+    width: 600px;
+    color: red;
+    text-align: center;
+    grid-column: 2/3;
+    align-self: center;
+}
