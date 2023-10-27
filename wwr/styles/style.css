@@ -179,6 +179,11 @@ footer a {
     padding: 25px 50px;
 }
 
+footer p {
+    font-size: 1.2em;
+    align-items: center;
+}
+
 footer a:hover{
     color: black;
 }
