@@ -1,0 +1,73 @@
+.bridge {
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+
+
+}
+
+h3 {
+    width: 300px;
+    color: #446493;
+    text-align: center;
+}
+
+h1 {
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    
+    width: 300px;
+    color: gray;
+    text-align: center;
+}
+
+footer {
+    width: 300px;
+    height: 101;
+
+    display: grid;
+    grid-template-columns: 99px 99px 99px;
+    grid-template-rows: 99px;
+    
+    gap: 1px;
+    padding: 1px;
+    background-color: white;
+}
+
+.read {
+    grid-column: 1/2;
+    font-size: 20px;
+
+    background-color: #446493;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+
+    border-bottom-left-radius: 10%;
+
+}
+
+.views {
+    
+    grid-column: 2/3;
+    font-size: 20px;
+
+    background-color: #446493;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
+
+.comments {
+    grid-column: 3/4;
+    font-size: 20px;
+
+    background-color: #446493;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+
+    border-bottom-right-radius: 10%;
+}
