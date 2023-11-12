@@ -63,8 +63,9 @@ footer {
 
     background-color: #446493;
     color: white;
-    text-align: center;
-    line-height: 45px;
+    justify-items: center;
+    align-items: center;
+
 
     border-bottom-right-radius: 10%;
 }
