@@ -146,6 +146,8 @@ p {
     font-size: 1.5em;
 }
 
+
+
 /*---------------- Duration and Preparation -------------------------- */
 
 .msg1, .msg2 {
@@ -169,8 +171,6 @@ p {
     grid-column: 4/5;
     text-align: center;
 }
-
-
 
 /*---------------- Footer -------------------------- */
 footer {
