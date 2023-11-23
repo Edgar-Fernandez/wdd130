@@ -10,6 +10,8 @@
 
 <body>
     <div id="content">
+
+        <!-- Logo with navigation -->
         <header>
             <a href="index.html" id="logo_link">
                 <img class="logo" src="images/Logo_big.png" alt="Huejotzingo_logo">
@@ -22,26 +24,24 @@
         </header>
         <main>
 
-            <!-- Slideshow container -->
+            <!-- Slideshow -->
             <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="images/slideshow1.jpg" style="width:100%">
-                    <div class="text">Huejotzingo Ward Church Building</div>
+                <div class="mySlides fade">                
+                    <img src="images/slideshow1.jpg" style="width:100%" alt="Huejotzingo main view">                  
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="images/slideshow2.jpg" style="width:100%">
-                    <div class="text">Main Entrance</div>
+                <div class="mySlides fade">         
+                    <img src="images/slideshow2.jpg" style="width:100%" alt="Huejotzingo main entrance">       
                 </div>
 
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="images/slideshow3.jpg" style="width:100%">
-                    <div class="text">Side view</div>
+                <div class="mySlides fade">            
+                    <img src="images/slideshow3.jpg" style="width:100%" alt="Huejotzingo side view">      
+                </div>
+
+                <div class="mySlides fade">       
+                    <img src="images/slideshow4.jpg" style="width:100%" alt="Huejotzingo side view2">             
                 </div>
 
                 <!-- Next and previous buttons -->
@@ -55,15 +55,8 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
-
-<!--
-            <img src="images/slideshow1.jpg" alt="slideshow1">
-            <img src="images/slideshow2.jpg" alt="slideshow2">
-            <img src="images/slideshow3.jpg" alt="slideshow3">
-            <img src="images/slideshow4.jpg" alt="slideshow4">
-
--->
 
             <h1>Remodeling of Huejotzingo Ward Church Building</h1>
 
@@ -102,43 +95,46 @@
 
 
         </main>
+
+        <!-- Footer -->
         <footer>
             <p>Huejotzingo Ward - Nealtican Mexico North Stake &copy; Edgar Fernandez Garcia</p>
             <a href="site-plan.html">Site Plan</a>
         </footer>
     </div>
+
+
+    <!-- Java code for Slideshow -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
-
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-
-    // Next/previous controls
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-    }
-
-</script>
 
 </html>
