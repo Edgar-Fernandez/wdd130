@@ -42,10 +42,16 @@ nav {
 
 nav a {
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 35px;
     font-family: Arial;
+}
+
+nav a:hover {
+    /*background-color: #fe6847ff;*/
+    color: black;
+    text-decoration: underline;
 }
 
 /*---------------- Footer -------------------------- */
