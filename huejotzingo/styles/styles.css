@@ -264,3 +264,110 @@ footer a:hover{
   grid-column: 4/5;
   text-align: center;
 }
+
+/*---------------- 3RD PAGE CONTENT -------------------------- */
+
+.acttitle{
+font-size: 2.5em;
+margin-bottom: 60px;
+}
+
+/*---------------- Interviews -------------------------- */
+
+.actmsg1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100px 400px 100px 1fr 100px;
+
+}
+
+.actimg1 {
+  width: 400px;
+  height: 300px;
+  grid-column: 2/3;
+  align-self: auto;
+  align-content: center;
+  align-self: center; 
+}
+
+.acttext1{
+  margin-top: 20px;
+  grid-column: 4/5;
+  text-align: center;
+}
+
+/*---------------- Sports -------------------------- */
+
+.actmsg2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100px 400px 100px 1fr 100px;
+
+}
+
+.actimg2 {
+  width: 400px;
+  height: 300px;
+  grid-column: 2/3;
+  align-self: auto;
+  align-content: center;
+  align-self: center; 
+}
+
+.acttext2{
+  margin-top: 35px;
+  grid-column: 4/5;
+  text-align: center;
+}
+
+/*---------------- Other activities -------------------------- */
+
+.actmsg3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100px 400px 100px 1fr 100px;
+
+}
+
+.actimg3 {
+  width: 400px;
+  height: 300px;
+  grid-column: 2/3;
+  align-self: auto;
+  align-content: center;
+  align-self: center; 
+}
+
+.acttext3{
+  margin-top: 20px;
+  grid-column: 4/5;
+  text-align: center;
+}
+
+/*---------------- Weekdays -------------------------- */
+
+.actmsg4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100px 400px 100px 1fr 100px;
+
+}
+
+.actimg4 {
+  width: 400px;
+  height: 300px;
+  grid-column: 2/3;
+  align-self: auto;
+  align-content: center;
+  align-self: center; 
+}
+
+.acttext4{
+  margin-top: 35px;
+  grid-column: 4/5;
+  text-align: center;
+}
