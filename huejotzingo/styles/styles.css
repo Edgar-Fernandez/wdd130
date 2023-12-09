@@ -292,7 +292,7 @@ margin-bottom: 60px;
 }
 
 .acttext1{
-  margin-top: 20px;
+  margin-top: 25px;
   grid-column: 4/5;
   text-align: center;
 }
@@ -317,7 +317,7 @@ margin-bottom: 60px;
 }
 
 .acttext2{
-  margin-top: 35px;
+  margin-top: 40px;
   grid-column: 4/5;
   text-align: center;
 }
@@ -342,7 +342,7 @@ margin-bottom: 60px;
 }
 
 .acttext3{
-  margin-top: 20px;
+  margin-top: 30px;
   grid-column: 4/5;
   text-align: center;
 }
@@ -367,7 +367,7 @@ margin-bottom: 60px;
 }
 
 .acttext4{
-  margin-top: 35px;
+  margin-top: 40px;
   grid-column: 4/5;
   text-align: center;
 }
